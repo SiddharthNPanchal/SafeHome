@@ -1,0 +1,43 @@
+<resources>
+
+    <string name="app_name">Safe Home</string>
+    <string name="username">Mobile Number</string>
+    <string name="password">Password</string>
+    <string name="confirm">Confirm Password</string>
+    <string name="login">Login</string>
+    <string name="signup">Sign Up</string>
+    <string name="mobileNumber">Mobile Number</string>
+    <string name="societyname">Society Name</string>
+    <string name="add">Add Flat</string>
+    <string name="secretary">Secretary</string>
+    <string name="user">User</string>
+    <string name="watchman">Watchman</string>
+    <string name="resident">Resident</string>
+    <string name="flatName">Flat Name</string>
+    <string name="floors">Number Of Floors</string>
+    <string name="blockNumber">Block Number</string>
+    <string name="floorNumber">Floor Number</string>
+    <string name="adduser">Add User</string>
+    <string name="notice">Notice</string>
+    <!--     <string-array name="Households">-->
+    <string name="community">Community</string>
+    <string name="localservice">Local Services</string>
+    <string name="noticeboard">Notice Board</string>
+    <string name="security">Security No</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="blockName">Block Name</string>
+    <string name="title_activity_watchman">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="inentry">In Entries</string>
+    <string name="outentry">Out Entries</string>
+    <string name="inoutentry">In-Out Entries</string>
+    <string name="makeinentry">Make New In Entry</string>
+    <string name="logout">Logout</string>
+
+    <!--     </string-array>-->
+
+</resources>

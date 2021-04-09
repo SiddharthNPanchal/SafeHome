@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WatchmanHomeActivity">
+
+<!--    <androidx.appcompat.widget.Toolbar-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:id="@+id/toolbar"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:background="@drawable/background"-->
+<!--        tools:ignore="MissingConstraints">-->
+
+<!--        <ImageButton-->
+<!--            android:id="@+id/imgbutton_logout_userhome"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+
+<!--            android:background="@color/white_with_alpha"-->
+<!--            android:layout_marginRight="20dp"-->
+<!--            app:srcCompat="@drawable/arrow"-->
+<!--            tools:srcCompat="@drawable/arrow" />-->
+
+<!--    </androidx.appcompat.widget.Toolbar>-->
+
+
+
+    <ImageView
+        android:id="@+id/bg_iv_watchmanhome"
+        android:layout_width="0dp"
+        android:layout_height="220dp"
+        android:background="@drawable/background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/watchman_iv_watchmanhome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/emergency"
+        tools:src="@drawable/emergency" />
+
+    <TextView
+        android:id="@+id/watchman_txt_watchmanhome"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="60dp"
+        android:text="@string/watchman"
+        android:textColor="@color/space_white"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/watchman_iv_watchmanhome"
+        app:layout_constraintStart_toStartOf="@+id/bg_iv_watchmanhome"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/inentry_crd_watchmanhome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="190dp"
+        app:cardCornerRadius="25dp"
+        app:contentPadding="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/bg_iv_watchmanhome">
+
+        <ImageView
+            android:id="@+id/inentry_iv_watchmanhome"
+            android:layout_width="140dp"
+            android:layout_height="130dp"
+            android:layout_gravity="center_horizontal"
+            app:srcCompat="@drawable/in"
+            tools:src="@drawable/in" />
+
+        <TextView
+            android:id="@+id/inentry_txt_watchmanhome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="133dp"
+            android:text="@string/inentry"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/outentry_crd_watchmanhome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="190dp"
+        android:layout_marginEnd="16dp"
+        app:cardCornerRadius="25dp"
+        app:contentPadding="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/bg_iv_watchmanhome">
+
+        <ImageView
+            android:id="@+id/outentry_iv_watchmanhome"
+            android:layout_width="140dp"
+            android:layout_height="130dp"
+            android:layout_gravity="center_horizontal"
+            app:srcCompat="@drawable/out"
+            tools:src="@drawable/out" />
+
+        <TextView
+            android:id="@+id/outentry_txt_watchmanhome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="133dp"
+            android:text="@string/outentry"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/inoutentry_crd_watchmanhome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        app:cardCornerRadius="25dp"
+        app:contentPadding="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inentry_crd_watchmanhome">
+
+        <ImageView
+            android:id="@+id/inoutentry_iv_watchmanhome"
+            android:layout_width="140dp"
+            android:layout_height="130dp"
+            android:layout_gravity="center_horizontal"
+            app:srcCompat="@drawable/inout"
+            tools:src="@drawable/inout" />
+
+        <TextView
+            android:id="@+id/inoutentry_txt_watchmanhome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="133dp"
+            android:gravity="center"
+            android:text="@string/inoutentry"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/makenew_crd_watchmanhome"
+        android:layout_width="170dp"
+        android:layout_height="190dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        app:cardCornerRadius="25dp"
+        app:contentPadding="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/outentry_crd_watchmanhome">
+
+
+        <TextView
+            android:id="@+id/makenew_txt_watchmanhome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="Make New"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/makenewin_txt_watchmanhome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|center_horizontal"
+            android:layout_marginTop="0dp"
+            android:text="IN"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/makenewinentries_txt_watchmanhome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="110dp"
+            android:text="Entries"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/btn_logout_watchmanhome"
+        android:layout_width="160dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="130dp"
+        android:layout_weight="1"
+        android:background="@drawable/round_bg"
+        android:text="@string/logout"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/makenew_crd_watchmanhome" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

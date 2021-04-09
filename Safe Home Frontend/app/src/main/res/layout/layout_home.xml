@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    android:id="@+id/container">
+
+
+<!--    <androidx.appcompat.widget.Toolbar-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:background="@drawable/background"-->
+
+<!--        >-->
+
+<!--        <ImageButton-->
+<!--            android:id="@+id/imgbutton_logout_userhome"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="right|center_vertical"-->
+<!--            android:layout_marginRight="20dp"-->
+<!--            app:srcCompat="@drawable/arrow"-->
+<!--            tools:srcCompat="@drawable/arrow" />-->
+
+<!--    </androidx.appcompat.widget.Toolbar>-->
+
+    <com.luseen.spacenavigation.SpaceNavigationView
+        android:id="@+id/space"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom" />
+
+
+
+</RelativeLayout>

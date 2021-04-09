@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "226527833571",
+    "firebase_url": "https://summerinternship-2cd36.firebaseio.com",
+    "project_id": "summerinternship-2cd36",
+    "storage_bucket": "summerinternship-2cd36.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:226527833571:android:6dc6643543f251a4e604d6",
+        "android_client_info": {
+          "package_name": "com.example.si"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "226527833571-9dvq0uafrgat1r29k659e32rvb7q8n3n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.si",
+            "certificate_hash": "98415e41803744302ff53d538f77b9889ca9ea05"
+          }
+        },
+        {
+          "client_id": "226527833571-4aqapa4jplpln3hdbr1s1nbv14f3c997.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1MF1nBRTyxA9IV6xCzyh1wdcN7CDpL7I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "226527833571-4aqapa4jplpln3hdbr1s1nbv14f3c997.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.si">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:configChanges="keyboardHidden|orientation"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+
+
+        <activity android:name=".changepassword"></activity>
+
+        <activity android:name=".SocietyUsersActivity" />
+        <activity android:name=".ViewSocietyUsersActivity" />
+
+        <service android:name=".MyFirebaseService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".MyFirebaseMessaging">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name=".activity_everyday"
+            android:configChanges="keyboardHidden|orientation" />
+        <activity
+            android:name=".EverdayActivity"
+            android:configChanges="keyboardHidden|orientation" />
+        <activity
+            android:name=".UserBlockEveryDayActivity"
+            android:configChanges="keyboardHidden|orientation" />
+        <activity
+            android:name=".WatchmanViewActivity"
+            android:configChanges="keyboardHidden|orientation" />
+        <activity
+            android:name=".AddWatchman"
+            android:configChanges="keyboardHidden|orientation" />
+        <activity
+            android:name=".CategoryViewUser"
+            android:configChanges="keyboardHidden|orientation" />
+        <activity
+            android:name=".HomeActivity"
+            android:configChanges="keyboardHidden|orientation" />
+        <activity
+            android:name=".NoticeviewActivityUser"
+            android:configChanges="keyboardHidden|orientation" />
+        <activity
+            android:name=".FlatActivity"
+            android:configChanges="keyboardHidden|orientation" />
+
+
+        <activity
+            android:name=".NoticeActivity"
+            android:configChanges="keyboardHidden|orientation" />
+        <activity
+            android:name=".TempUserActivity"
+            android:configChanges="keyboardHidden|orientation" />
+        <activity
+            android:name=".AddUserActivity"
+            android:configChanges="keyboardHidden|orientation" />
+        <activity
+            android:name=".UserFlatActivity"
+            android:configChanges="keyboardHidden|orientation" />
+        <activity
+            android:name=".LoginOTPActivity"
+            android:configChanges="keyboardHidden|orientation" />
+        <activity
+            android:name=".SecretaryActivity"
+            android:configChanges="keyboardHidden|orientation" />
+        <activity
+            android:name=".UserActivity"
+            android:configChanges="keyboardHidden|orientation" />
+        <activity
+            android:name=".SocietySignupActivity"
+            android:configChanges="keyboardHidden|orientation" />
+        <activity
+            android:name=".WatchmanHomeActivity"
+            android:configChanges="keyboardHidden|orientation" />
+        <activity
+            android:name=".WatchmanInEntry"
+            android:configChanges="keyboardHidden|orientation" />
+        <activity
+            android:name=".WatchmanInOutEntry"
+            android:configChanges="keyboardHidden|orientation" />
+        <activity
+            android:name=".WatchmanOutEntry"
+            android:configChanges="keyboardHidden|orientation" />
+        <activity
+            android:name=".WatchmanNewInEntry"
+            android:configChanges="keyboardHidden|orientation" />
+        <activity
+            android:name=".EverydayViewActivity"
+            android:configChanges="keyboardHidden|orientation" />
+
+        <activity
+            android:name=".LoginActivity"
+            android:configChanges="keyboardHidden|orientation" />
+
+
+        <activity
+            android:name=".SplashActivity"
+            android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

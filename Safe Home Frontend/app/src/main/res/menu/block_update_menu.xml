@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/item_update_block_menu"
+        android:title="Update Flat "
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/item_delete_block_menu"
+        android:title="Delete Flat"
+        app:showAsAction="never" />
+</menu>

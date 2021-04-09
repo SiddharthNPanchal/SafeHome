@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "summerinternship-2cd36",
+  "private_key_id": "7b36674b8ccee8b9d04e64086f7cda1acaad6800",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDUBnI2A51ZvNwK\nLrMjIdjUg9ams91FKL6zehpG/C/lAdLc/7XOMKJjrbJD3kHWw0cVlnGWt2GnLxLZ\nlKBs7wmNJ6iVwt0RJWt2dQk9NTorkAb7sYcKSPlMskRZDKPXmNnfyTo+fpzkbqPg\n0fIR8KXZIS+3QzodLpKQIU431oWet14rF1tyva/IZydX9h6Nrgvk8I2yB+ftYndb\nTnduNCuIW4aQMfR2VHb7FlyirhbjiWlsQ8/CM8U/KXmDq7P9H+iDtABzyaNeu21P\nE2L2y4ZpGzIdOcHcEbI/dGpn+h54dZC3JpsncNs6yaD+gcFLR30ou8NvN7B3Cedr\nwIN1P6AFAgMBAAECggEAW8x6sKY5/3uErafwiZqC/egjDMQ9Xk842g5YyDkyJ231\ntRfFyINIG+49i6L0UJ717QPZJE87qZ35BFmUZ/XK5eGw3T6kZmMUNxKPMIAWMnxG\neb0wYaScw7c/XmrZmWQlmP3QCPTayxCYRaPAskHGHM+AkFE8HRxn+p1g904bRk8G\nZEKEmXACte0rkl27F4UqbrFMJEES0UUWK+KHK0Mn2iOvHypFaI2YRSvKeR6iXDxE\nhTMh6vCSxcu3KgJiuFsjSp773lIcgXR6v6EWwBxitb1tJJR+0LV+no5OE67m7kIe\nyUPxmk5XvnX5O9WeanWO+yy0+akzUhRoUorLD6MvtQKBgQDsO30kp8914iFfIps2\na97H8pb/fD5VY5YpZn4bRVEYo15AJtRBjVbIcHlNS7LF7dDTeAob+tqZua2L8ZF3\nCsNnRQP8pTeoTkrEJqnSRGxw/RAH0dFVg04roDzyT+3tls5hDm2SaGSpN7pAH2bN\nqUOFT2UcbRPatPbPrIQJVDFQBwKBgQDlxGWQEOivcGRRL1ybmJByCp8bmSwOY7nZ\nuc21AGJbA49nBw73rXatg9r/1OtQ3J24afdKQaV/uszEBtoA8Yz3IPwMT9smoq/w\nfnmVvP+GJGFjyGlNxzxWPIHi17iD36ZUJALfImquvkUI/6rHUOPBa+d0XUm1qgrX\nzvFKhBj0kwKBgG8PbL898agPPvc2EticECnaoCjO5ZNJdYBTQjhZ901pCNeKKcID\ny+gCENVJIGwzaTjyN3Z+EiWxiKjBUk0wDzvO05gEqM0EudvL/YzwRDc+kjnK5+qX\nB7o05FJbR5Wqj65LlTH+yExR+ctJuBA6YpcbA4NAuNPavipWheDI50IjAoGBANuM\nJHfakFxDCrhAhz7uMuelmo7md6BwTj/rONJBQbox1q7docGscIAwQ+y86PVlORfj\nuTWtMJSyS8LrwRext77UN8MT8xYh0ff9AfTAmXD2BlEwSN7XB6JnQr0c3+Syqd4w\nYsYPvtymVpTYp7i4ZEiH8KvSEAKULrQzu4A2ZRodAoGANO7YQGJ6d0Vxx/M/Sm9a\nHWDFP0ykPZ/WyEya43pCDOPHlkm5+SgorAMmPDvN9OZcvePXyiE5w0jSQOMQbXEn\nmkREwNnZM3Sj0bh77SOL4cl4oEpQBanx4xiDCTQw7KISujTt5pWWO9F7t/Z9I0XU\n5ZUUc9NJHhmLztxjprHT79A=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-e03lx@summerinternship-2cd36.iam.gserviceaccount.com",
+  "client_id": "101543374156226038200",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-e03lx%40summerinternship-2cd36.iam.gserviceaccount.com"
+}
